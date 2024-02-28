@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "sass-loader": "^10.5.2"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "uview-ui": "^2.0.36"
+  }
+}

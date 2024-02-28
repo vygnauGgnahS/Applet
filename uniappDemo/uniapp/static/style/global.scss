@@ -1,0 +1,34 @@
+/* 
+	版心 页面运行时最安全的可视范围 水平
+	web端 1000px ~ 1300px
+	移动端 90%/vw
+ */
+.W{
+	width: 94vw;
+	/* position 定位 */
+	/* 
+		relative 相对定位
+		相对于↖顶点
+		原位置占位
+		为绝对定位提供坐标
+	 */
+	/* 
+		absolute 绝对定位
+		参照点 最近 绝对定位/ 相对定位/ 固定定位 的 祖容器
+	 */
+	/* 
+		fix 固定定位
+	 */
+	/* 
+		sticky
+	 */
+	/* 
+		left > right / top > bottom 
+		作用域 非静态定位
+	 */
+	
+	position: relative;
+	left: 50%;
+	/* 回正 自身宽度/2 */
+	margin-left: -47vw; /* 无数值 平替 transform: translateX(50%); */
+}
